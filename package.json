@@ -1,0 +1,30 @@
+{
+  "name": "online_chat",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "peerjs": "^1.4.7",
+    "simple-peer": "^9.11.1",
+    "simplewebrtc": "^3.0.2",
+    "vue": "^3.2.39",
+    "webrtc-adapter": "^8.1.2",
+    "ws": "^8.9.0"
+  },
+  "devDependencies": {
+    "@esbuild-plugins/node-globals-polyfill": "^0.1.1",
+    "@esbuild-plugins/node-modules-polyfill": "^0.1.4",
+    "@vitejs/plugin-vue": "^3.1.0",
+    "highlight.js": "^11.6.0",
+    "naive-ui": "^2.33.3",
+    "unplugin-auto-import": "^0.11.2",
+    "unplugin-vue-components": "^0.22.7",
+    "vfonts": "^0.0.3",
+    "vite": "^3.1.3"
+  }
+}

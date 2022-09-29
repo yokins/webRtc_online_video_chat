@@ -1,0 +1,15 @@
+/** in your css */
+selector {
+  font-family: v-sans, v-mono, other-fallbacks;
+}
+
+/** for available font weights, see the following section */
+selector {
+  font-weight: 400;
+  /** regular */
+}
+
+selector {
+  font-weight: 400;
+  /** medium */
+}
